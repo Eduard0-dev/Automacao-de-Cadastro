@@ -33,8 +33,6 @@ time.sleep(3)
 
 import pandas
 tabela = pandas.read_csv("produtos.csv")
-    # Se der errado passar o caminho completo do arquivo CSV
-    # print(tabela)
 
 for linha in tabela.index:
     pyautogui.click(x=902, y=235)
