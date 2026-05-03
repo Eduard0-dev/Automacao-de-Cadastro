@@ -2,7 +2,7 @@
 
 ## 📖 Descrição
 
-Este projeto é um script em Python que automatiza o processo de cadastro de produtos em um sistema web utilizando **automação de teclado e mouse**.
+Este projeto é um código em Python que automatiza o processo de cadastro de produtos em um sistema web utilizando **automação de teclado e mouse**.
 
 A automação:
 
@@ -26,7 +26,7 @@ A automação:
 
 ```
 📁 projeto
- ├── script.py
+ ├── codigo.py
  ├── produtos.csv
  └── README.md
 ```
@@ -44,13 +44,6 @@ O arquivo `produtos.csv` deve conter as seguintes colunas:
 * preco_unitario
 * custo
 * obs
-
-Exemplo:
-
-```
-codigo,marca,tipo,categoria,preco_unitario,custo,obs
-001,MarcaX,TipoA,Categoria1,10,5,Produto teste
-```
 
 ---
 
@@ -91,7 +84,7 @@ python script.py
 
 ---
 
-## 🧠 Funcionamento do Script
+## 🧠 Funcionamento do Código
 
 1. Abre o menu iniciar
 2. Pesquisa e abre o navegador
@@ -107,22 +100,14 @@ python script.py
 
 ---
 
-## ⚡ Possíveis Melhorias
-
-* Detectar elementos na tela automaticamente (sem coordenadas fixas)
-* Utilizar Selenium para automação web mais robusta
-* Implementar tratamento de erros
-* Adicionar logs de execução
-* Proteger credenciais com variáveis de ambiente
-
----
 
 ## 📌 Aviso
 
-Este projeto é um exemplo de automação e deve ser usado com responsabilidade. Certifique-se de que o uso está de acordo com os termos do sistema automatizado.
+Este projeto é um exemplo de automação feito para fins educativos e portifólio.
 
 ---
 
 ## 👨‍💻 Autor
 
+- Eduardo Lopes
 Projeto desenvolvido para fins de estudo em automação com Python.
