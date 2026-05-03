@@ -1,0 +1,256 @@
+# 📌 Automação de Cadastro de Produtos com Python
+
+## 📖 Descrição
+
+Este projeto é um script em Python que automatiza o processo de cadastro de produtos em um sistema web utilizando **automação de teclado e mouse**.
+
+A automação:
+
+* Abre o navegador (Microsoft Edge)
+* Acessa uma página de login
+* Realiza o login automaticamente
+* Lê uma base de dados (`produtos.csv`)
+* Preenche e envia os dados no sistema para cada produto
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+* Python 3
+* PyAutoGUI
+* Pandas
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+📁 projeto
+ ├── script.py
+ ├── produtos.csv
+ └── README.md
+```
+
+---
+
+## 📊 Formato do Arquivo CSV
+
+O arquivo `produtos.csv` deve conter as seguintes colunas:
+
+* codigo
+* marca
+* tipo
+* categoria
+* preco_unitario
+* custo
+* obs
+
+Exemplo:
+
+```
+codigo,marca,tipo,categoria,preco_unitario,custo,obs
+001,MarcaX,TipoA,Categoria1,10,5,Produto teste
+```
+
+---
+
+## 🚀 Como Executar
+
+1. Instale as dependências:
+
+```
+pip install pyautogui pandas
+```
+
+2. Execute o script:
+
+```
+python script.py
+```
+
+---
+
+## ⚠️ Observações Importantes
+
+* As **coordenadas do mouse (`x` e `y`) são fixas**, portanto:
+
+  * Devem ser ajustadas conforme a resolução da sua tela
+  * Podem variar de acordo com o layout do sistema
+
+* O script utiliza `time.sleep()` para aguardar carregamentos:
+
+  * Pode ser necessário ajustar o tempo dependendo da velocidade da internet
+
+* O campo de senha está fixo no código:
+
+  ```
+  pyautogui.write("SENHA")
+  ```
+
+  🔒 Recomenda-se usar variáveis de ambiente para maior segurança.
+
+---
+
+## 🧠 Funcionamento do Script
+
+1. Abre o menu iniciar
+2. Pesquisa e abre o navegador
+3. Acessa o site de login
+4. Preenche email e senha
+5. Faz login
+6. Lê o arquivo CSV com Pandas
+7. Para cada linha:
+
+   * Preenche os campos do formulário
+   * Envia os dados
+   * Rola a página
+
+---
+
+## ⚡ Possíveis Melhorias
+
+* Detectar elementos na tela automaticamente (sem coordenadas fixas)
+* Utilizar Selenium para automação web mais robusta
+* Implementar tratamento de erros
+* Adicionar logs de execução
+* Proteger credenciais com variáveis de ambiente
+
+---
+
+## 📌 Aviso
+
+Este projeto é um exemplo de automação e deve ser usado com responsabilidade. Certifique-se de que o uso está de acordo com os termos do sistema automatizado.
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido para fins de estudo em automação com Python.
+# 📌 Automação de Cadastro de Produtos com Python
+
+## 📖 Descrição
+
+Este projeto é um script em Python que automatiza o processo de cadastro de produtos em um sistema web utilizando **automação de teclado e mouse**.
+
+A automação:
+
+* Abre o navegador (Microsoft Edge)
+* Acessa uma página de login
+* Realiza o login automaticamente
+* Lê uma base de dados (`produtos.csv`)
+* Preenche e envia os dados no sistema para cada produto
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+* Python 3
+* PyAutoGUI
+* Pandas
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+📁 projeto
+ ├── script.py
+ ├── produtos.csv
+ └── README.md
+```
+
+---
+
+## 📊 Formato do Arquivo CSV
+
+O arquivo `produtos.csv` deve conter as seguintes colunas:
+
+* codigo
+* marca
+* tipo
+* categoria
+* preco_unitario
+* custo
+* obs
+
+Exemplo:
+
+```
+codigo,marca,tipo,categoria,preco_unitario,custo,obs
+001,MarcaX,TipoA,Categoria1,10,5,Produto teste
+```
+
+---
+
+## 🚀 Como Executar
+
+1. Instale as dependências:
+
+```
+pip install pyautogui pandas
+```
+
+2. Execute o script:
+
+```
+python script.py
+```
+
+---
+
+## ⚠️ Observações Importantes
+
+* As **coordenadas do mouse (`x` e `y`) são fixas**, portanto:
+
+  * Devem ser ajustadas conforme a resolução da sua tela
+  * Podem variar de acordo com o layout do sistema
+
+* O script utiliza `time.sleep()` para aguardar carregamentos:
+
+  * Pode ser necessário ajustar o tempo dependendo da velocidade da internet
+
+* O campo de senha está fixo no código:
+
+  ```
+  pyautogui.write("SENHA")
+  ```
+
+  🔒 Recomenda-se usar variáveis de ambiente para maior segurança.
+
+---
+
+## 🧠 Funcionamento do Script
+
+1. Abre o menu iniciar
+2. Pesquisa e abre o navegador
+3. Acessa o site de login
+4. Preenche email e senha
+5. Faz login
+6. Lê o arquivo CSV com Pandas
+7. Para cada linha:
+
+   * Preenche os campos do formulário
+   * Envia os dados
+   * Rola a página
+
+---
+
+## ⚡ Possíveis Melhorias
+
+* Detectar elementos na tela automaticamente (sem coordenadas fixas)
+* Utilizar Selenium para automação web mais robusta
+* Implementar tratamento de erros
+* Adicionar logs de execução
+* Proteger credenciais com variáveis de ambiente
+
+---
+
+## 📌 Aviso
+
+Este projeto é um exemplo de automação e deve ser usado com responsabilidade. Certifique-se de que o uso está de acordo com os termos do sistema automatizado.
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido para fins de estudo em automação com Python.
